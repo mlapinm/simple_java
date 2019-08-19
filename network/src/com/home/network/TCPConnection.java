@@ -50,8 +50,6 @@ public class TCPConnection {
         } catch (IOException e) {
             eventListener.onExeption(TCPConnection.this, e);
             disconnect();
-        }finally {
-            eventListener.onDisconnect(TCPConnection.this);
         }
     }
 
@@ -71,6 +69,5 @@ public class TCPConnection {
                 + " : "
                 + socket.getPort();
     }
-
 
 }
