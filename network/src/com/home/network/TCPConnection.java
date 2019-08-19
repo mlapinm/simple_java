@@ -31,12 +31,10 @@ public class TCPConnection {
                         String msg = in.readLine();
                         eventListener.onReceiveString(TCPConnection.this, msg);
                     }
-                    //                    String msg = in.readLine();
-
                 }catch (IOException e){
-
+                    eventListener.onExeption(TCPConnection.this, e);
                 }finally {
-
+                    eventListener.onDisconnect(TCPConnection.this);
                 }
             }
         });
