@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="54f161b5-90b7-4757-8234-c0597a298707" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/com/home/chat/client/ClientWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/com/home/chat/client/ClientWindow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/com/home/chat/server/ChatServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/com/home/chat/server/ChatServer.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,11 +15,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="ClientWindow.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/src/com/home/chat/client/ClientWindow.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="49" column="51" selection-start-line="49" selection-start-column="51" selection-end-line="49" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#main#0;class#ClientWindow#0" />
+                <element signature="e#426#427#0" expanded="true" />
+                <element signature="e#475#476#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ChatServer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/src/com/home/chat/server/ChatServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="639">
-              <caret line="44" column="41" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="41" />
+            <state relative-caret-position="550">
+              <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#101#102#0" expanded="true" />
@@ -30,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TCPConnection.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TCPConnection.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/network/src/com/home/network/TCPConnection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="50" column="33" lean-forward="true" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+            <state relative-caret-position="105">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,7 +61,7 @@
       <file leaf-file-name="TCPConnectionListener.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/network/src/com/home/network/TCPConnectionListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
+            <state relative-caret-position="120">
               <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
             </state>
           </provider>
@@ -63,6 +79,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -70,6 +89,7 @@
         <option value="$PROJECT_DIR$/network/src/com/home/network/TCPConnectionListener.java" />
         <option value="$PROJECT_DIR$/network/src/com/home/network/TCPConnection.java" />
         <option value="$PROJECT_DIR$/server/src/com/home/chat/server/ChatServer.java" />
+        <option value="$PROJECT_DIR$/client/src/com/home/chat/client/ClientWindow.java" />
       </list>
     </option>
   </component>
@@ -81,9 +101,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1308" />
-    <option name="y" value="19" />
+    <option name="y" value="83" />
     <option name="width" value="1222" />
-    <option name="height" value="847" />
+    <option name="height" value="783" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -171,7 +191,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ClientWindow">
     <configuration name="ChatServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.home.chat.server.ChatServer" />
       <module name="server" />
@@ -179,6 +199,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.home.chat.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="ClientWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.home.chat.client.ClientWindow" />
+      <module name="client" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.home.chat.client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -224,8 +255,13 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="Application.ChatServer" />
+      <item itemvalue="Application.ClientWindow" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClientWindow" />
         <item itemvalue="Application.ChatServer" />
       </list>
     </recent_temporary>
@@ -241,7 +277,7 @@
       <option name="presentableId" value="Default" />
       <updated>1566131472208</updated>
       <workItem from="1566131473543" duration="2411000" />
-      <workItem from="1566197059336" duration="9466000" />
+      <workItem from="1566197059336" duration="14420000" />
     </task>
     <task id="LOCAL-00001" summary="new ClientWindow">
       <created>1566133761704</created>
@@ -264,14 +300,35 @@
       <option name="project" value="LOCAL" />
       <updated>1566204026126</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="network">
+      <created>1566210514853</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1566210514853</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Server end">
+      <created>1566210831726</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1566210831726</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Server end">
+      <created>1566210861500</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1566210861500</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11877000" />
+    <option name="totallyTimeSpent" value="16831000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1308" y="19" width="1222" height="847" extended-state="0" />
+    <frame x="1308" y="83" width="1222" height="783" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -283,8 +340,8 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22807017" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.36695907" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22741936" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.2483871" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -313,11 +370,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new ClientWindow" />
     <MESSAGE value="network" />
-    <option name="LAST_COMMIT_MESSAGE" value="network" />
+    <MESSAGE value="Server end" />
+    <option name="LAST_COMMIT_MESSAGE" value="Server end" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -328,24 +386,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/com/home/chat/client/ClientWindow.java">
+    <entry file="file://$PROJECT_DIR$/network/src/com/home/network/TCPConnectionListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="120">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/network/src/com/home/network/TCPConnectionListener.java">
+    <entry file="file://$PROJECT_DIR$/network/src/com/home/network/TCPConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        <state relative-caret-position="105">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/src/com/home/chat/server/ChatServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="639">
-          <caret line="44" column="41" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="41" />
+        <state relative-caret-position="550">
+          <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#101#102#0" expanded="true" />
@@ -356,12 +417,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/network/src/com/home/network/TCPConnection.java">
+    <entry file="file://$PROJECT_DIR$/client/src/com/home/chat/client/ClientWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="50" column="33" lean-forward="true" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+        <state relative-caret-position="295">
+          <caret line="49" column="51" selection-start-line="49" selection-start-column="51" selection-end-line="49" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#main#0;class#ClientWindow#0" />
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
           </folding>
         </state>
       </provider>
